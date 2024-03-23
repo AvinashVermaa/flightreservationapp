@@ -1,0 +1,69 @@
+2024-03-20 23:52:21.169  INFO 8648 --- [main] c.f.FlightreservationAppApplication      : Starting FlightreservationAppApplication using Java 17.0.10 on AVINASH-0403 with PID 8648 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\flightreservation_app\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\flightreservation_app)
+2024-03-20 23:52:21.174  INFO 8648 --- [main] c.f.FlightreservationAppApplication      : No active profile set, falling back to default profiles: default
+2024-03-20 23:52:22.020  INFO 8648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-20 23:52:22.120  INFO 8648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 4 JPA repository interfaces.
+2024-03-20 23:52:22.864  INFO 8648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-03-20 23:52:22.879  INFO 8648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-20 23:52:22.880  INFO 8648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-03-20 23:52:23.289  INFO 8648 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-03-20 23:52:23.309  INFO 8648 --- [main] o.a.c.c.C.[.[.[/flightreservationapp]    : Initializing Spring embedded WebApplicationContext
+2024-03-20 23:52:23.309  INFO 8648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2050 ms
+2024-03-20 23:52:23.532  INFO 8648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-20 23:52:23.618  INFO 8648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2024-03-20 23:52:23.836  INFO 8648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-20 23:52:23.969  INFO 8648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-20 23:52:24.439  INFO 8648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-20 23:52:24.481  INFO 8648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-20 23:52:25.351  INFO 8648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-20 23:52:25.367  INFO 8648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 23:52:26.050  WARN 8648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-20 23:52:26.279  INFO 8648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2024-03-20 23:52:26.478  INFO 8648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/flightreservationapp'
+2024-03-20 23:52:26.492  INFO 8648 --- [main] c.f.FlightreservationAppApplication      : Started FlightreservationAppApplication in 5.891 seconds (JVM running for 6.797)
+2024-03-20 23:56:00.367  INFO 8648 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-20 23:56:00.394  INFO 8648 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-20 23:56:00.397  INFO 8648 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-20 23:56:00.412  INFO 8648 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:56:03.882 [main] INFO  FlightreservationAppApplication[logStarting:55] - Starting FlightreservationAppApplication using Java 17.0.10 on AVINASH-0403 with PID 10272 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\flightreservation_app\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\flightreservation_app)
+23:56:03.888 [main] INFO  FlightreservationAppApplication[logStartupProfileInfo:635] - No active profile set, falling back to default profiles: default
+23:56:04.704 [main] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23:56:04.794 [main] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:201] - Finished Spring Data repository scanning in 77 ms. Found 4 JPA repository interfaces.
+23:56:05.461 [main] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8081 (http)
+23:56:05.475 [main] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8081"]
+23:56:05.476 [main] INFO  StandardService[log:173] - Starting service [Tomcat]
+23:56:05.476 [main] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/9.0.56]
+23:56:05.785 [main] INFO  TldScanner[log:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23:56:05.796 [main] INFO  [/flightreservationapp][log:173] - Initializing Spring embedded WebApplicationContext
+23:56:05.796 [main] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:290] - Root WebApplicationContext: initialization completed in 1832 ms
+23:56:06.013 [main] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+23:56:06.076 [main] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+23:56:06.282 [main] INFO  Version[<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+23:56:06.410 [main] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+23:56:06.939 [main] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+23:56:07.001 [main] INFO  Dialect[<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+23:56:07.913 [main] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+23:56:07.926 [main] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:56:08.634 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:56:08.870 [main] INFO  WelcomePageHandlerMapping[<init>:53] - Adding welcome page: ServletContext resource [/index.html]
+23:56:09.050 [main] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8081"]
+23:56:09.085 [main] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8081 (http) with context path '/flightreservationapp'
+23:56:09.097 [main] INFO  FlightreservationAppApplication[logStarted:61] - Started FlightreservationAppApplication in 5.848 seconds (JVM running for 6.758)
+00:02:24.359 [main] INFO  FlightreservationAppApplicationTests[logStarting:55] - Starting FlightreservationAppApplicationTests using Java 17.0.10 on AVINASH-0403 with PID 8168 (started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\flightreservation_app)
+00:02:24.363 [main] INFO  FlightreservationAppApplicationTests[logStartupProfileInfo:635] - No active profile set, falling back to default profiles: default
+00:02:25.591 [main] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+00:02:25.747 [main] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:201] - Finished Spring Data repository scanning in 132 ms. Found 4 JPA repository interfaces.
+00:02:26.984 [main] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+00:02:27.083 [main] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 5.6.3.Final
+00:02:27.333 [main] INFO  Version[<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+00:02:27.600 [main] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+00:02:28.368 [main] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+00:02:28.436 [main] INFO  Dialect[<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+00:02:29.737 [main] INFO  JtaPlatformInitiator[initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:02:29.751 [main] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+00:02:31.366 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+00:02:32.086 [main] INFO  WelcomePageHandlerMapping[<init>:53] - Adding welcome page: ServletContext resource [/index.html]
+00:02:32.810 [main] INFO  FlightreservationAppApplicationTests[logStarted:61] - Started FlightreservationAppApplicationTests in 9.197 seconds (JVM running for 11.77)
+00:02:33.378 [main] INFO  EmailUtilImpl[sendEmail:24] - Inside sendEmail() to : avinashverma657@gmail.com File : D:\FlightTickets\flightTicket1.pdf
+00:02:39.374 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+00:02:39.391 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+00:02:39.425 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
